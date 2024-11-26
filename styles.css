@@ -2,10 +2,12 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  background: #fff;
+  margin: 0px;
 }
 header {
   background: rgba(255, 144, 14, 0.1);
-  padding: 50px 240px;
+  padding: 50px 300px;
 }
 
 .nav-var {
