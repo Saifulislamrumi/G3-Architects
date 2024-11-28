@@ -270,3 +270,184 @@ main {
   font-size: 20px;
   text-align: center;
 }
+
+/* Responsive for tablets and smaller devices */
+@media (max-width: 1024px) {
+  header {
+    padding: 20px 5%;
+  }
+
+  .nav-var {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  .banner-content {
+    margin: 50px auto;
+    padding: 0 5%;
+  }
+
+  .banner-description {
+    width: 100%;
+  }
+
+  .team {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .team-content {
+    margin: 20px;
+    text-align: center;
+  }
+
+  .team-img {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .feature {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .feature-content,
+  .features-image {
+    width: 100%;
+  }
+
+  .fact-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .card {
+    width: 45%;
+  }
+
+  .sponsor-card {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .sposor-img {
+    width: 25%;
+  }
+}
+
+/* Responsive for mobile devices */
+@media (max-width: 768px) {
+  header {
+    padding: 10px 5%;
+  }
+
+  .G3-Architects {
+    font-size: 24px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+
+  .banner-content {
+    margin: 20px auto;
+  }
+
+  .btr-pri {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .team-img {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-head {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .feature-box {
+    margin-right: 0;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .tem-years {
+    bottom: 20px;
+  }
+
+  .fact-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .sponsor-card {
+    gap: 10px;
+  }
+
+  .sposor-img {
+    width: 40%;
+  }
+}
+
+/* Responsive for small mobile devices */
+@media (max-width: 480px) {
+  .banner-content {
+    padding: 0 5%;
+  }
+
+  .banner-description {
+    font-size: 14px;
+  }
+
+  .team-head {
+    font-size: 24px;
+  }
+
+  .team-content {
+    margin: 10px;
+  }
+
+  .feature-head {
+    font-size: 20px;
+  }
+
+  .feature-head-peragrap {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .card-numbers {
+    font-size: 24px;
+  }
+
+  .card-peragraph {
+    font-size: 12px;
+  }
+
+  .foot {
+    font-size: 14px;
+  }
+}
